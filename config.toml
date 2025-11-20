@@ -1,5 +1,8 @@
 theme = "default"
 
+[columns]
+"runner" = 3
+
 
 [[providers.prefixes]]
 prefix = ">"
@@ -16,6 +19,22 @@ provider = "websearch"
 [[providers.prefixes]]
 prefix = "@"
 provider = "archlinuxpkgs"
+
+[[providers.prefixes]]
+prefix = "/"
+provider = "files"
+
+[[providers.prefixes]]
+prefix = ":"
+provider = "symbols"
+
+[[providers.prefixes]]
+prefix = "\"
+provider = "unicode"
+
+[[providers.prefixes]]
+prefix = "#"
+provider = "windows"
 
 
 [[emergencies]]
