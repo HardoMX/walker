@@ -1,0 +1,35 @@
+theme = "default"
+
+
+[[providers.prefixes]]
+prefix = ">"
+provider = "runner"
+
+[[providers.prefixes]]
+prefix = "="
+provider = "calc"
+
+[[providers.prefixes]]
+prefix = "?"
+provider = "websearch"
+
+[[providers.prefixes]]
+prefix = "@"
+provider = "archlinuxpkgs"
+
+
+[[emergencies]]
+text = "Firefox Developer Edition"
+command = "firefox-developer-edition"
+
+[[emergencies]]
+text = "Wezterm"
+command = "env -u WAYLAND_DISPLAY wezterm"
+
+[[emergencies]]
+text = "Kitty"
+command = "kitty"
+
+[[emergencies]]
+text = "Elephant"
+command = "elephant"
