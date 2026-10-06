@@ -29,7 +29,7 @@ prefix = ":"
 provider = "symbols"
 
 [[providers.prefixes]]
-prefix = "\"
+prefix = "\\"
 provider = "unicode"
 
 [[providers.prefixes]]
